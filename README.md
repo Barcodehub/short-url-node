@@ -41,12 +41,13 @@ The server will start in the PORT `http://localhost:3000` (or the port you speci
   Shorten a URL
    - Method: POST
    - Path: `PORT/shorten`
-      ```
+     
+      
     Body: `{
     "url": "https://www.example.com/long-url-to-shorten"
     }`
-   
-     ```
+      
+  
    Redirect to original URL
    - Method: GET
    - Path: `PORT/:shortCode`
